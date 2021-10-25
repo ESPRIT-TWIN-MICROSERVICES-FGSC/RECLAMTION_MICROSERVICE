@@ -7,7 +7,7 @@ eureka:
   client:
     fetch-registry: true
     serviceUrl:
-      defaultZone: ${EUREKA_URL:http://localhost:5000/eureka%7D}
+      defaultZone: ${EUREKA_URL:http://localhost:5000/eureka}
 #      http://user:password@url/eureka
 security:
   user:
